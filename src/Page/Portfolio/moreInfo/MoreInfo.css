@@ -1,0 +1,223 @@
+.more-info-conteiner{
+    width: 100vw;
+    height: 100%;
+    position:fixed;
+    z-index: 10;
+}
+.more-info-box{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(117, 115, 115, 0.9);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.information-box{
+    width: 80vw;
+    height: 45vw;
+    background-color: rgba(255,255,255,0.9);
+    display: block;
+    overflow-y: hidden;
+}
+.exit-more{
+    float: right;
+    font-size: 3vw;
+    color: #7510F7;
+}
+.exit-more:hover{
+    font-size: 3vw;
+    color: #7410f78a;
+}
+.title-more{
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: 4%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+.horizontal-box-more{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.left-image-more{
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+.left-image-more img{
+    width: 29.76vw;
+    height: 17.85vw;
+    position: relative;
+    top: 24%;
+    left: 10%;
+}
+.right-text-more{
+    width: 50%;
+    position: relative;
+    top: 8vw;
+    margin-right: 10px;
+    height: auto;
+    display: block;
+}
+.title-more-info{
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: rgb(37, 37, 37);
+    font-family: 'Lato', sans-serif;
+}
+.description-info{
+    font-size: 1vw;
+    margin-top: 1.5vw;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+}
+.description-tech{
+    font-size: 1vw;
+    margin-top: 1.5vw;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+}
+.link-bottom-des {
+    font-size: 1vw;
+    margin-top: 2.5vw;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+}
+.link-bottom-des a {
+    font-size: 1vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+}
+.title-more-area{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-top: 1.5vw;
+    color: rgb(37, 37, 37);
+    font-family: 'Lato', sans-serif;
+}
+.in-progress{
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 1.5vw;
+    right: 2.5vw;
+    animation-name: progress;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes progress{
+    from{color: #ffff;}
+    to {color: rgb(219, 43, 43);}
+}
+@media (max-width:800px){
+    .more-info-box{
+        width: 100vw;
+        height: 100%;
+        background-color: rgba(255,255,255,0.9);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .information-box{
+        width: 100vw;
+        height: 100%;
+        background-color: rgba(255,255,255,0.9);
+    }
+    .horizontal-box-more{
+        flex-direction: column;
+    }
+    .left-image-more{
+        width: 100%;
+        height: 40vw;
+    }
+    .left-image-more img{
+        width: 79vw;
+        height: 45vw;
+        position: relative;
+        top: 18vw;
+        left: 9vw;
+    }
+    .exit-more{
+        float: right;
+        font-size: 9vw;
+        color: #7510F7;
+    }
+    .exit-more:hover{
+        font-size: 9vw;
+        color: #7410f78a;
+    }
+    .title-more{
+        font-size: 6vw;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        margin-left: 20px;
+        position: relative;
+        top:10vw;
+    }
+    .right-text-more{
+        width: 61vw;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top:28vw;
+        left:15vw;
+        height: auto;
+    }
+        .title-more-info{
+        font-size: 3vw;
+        font-weight: 500;
+        color: rgb(37, 37, 37);
+        font-family: 'Lato', sans-serif;
+    }
+    .description-info{
+        font-size: 2vw;
+        margin-top: 1.3vw;
+        color: #555;
+        font-family: 'Lato', sans-serif;
+    }
+    .description-tech{
+        font-size: 2vw;
+        margin-top: 2vw;
+        color: #555;
+        font-family: 'Lato', sans-serif;
+    }
+    .link-bottom-des {
+        font-size: 3vw;
+        margin-top: 4vw;
+        color: #555;
+        font-family: 'Lato', sans-serif;
+    }
+    .link-bottom-des a {
+        font-size: 3vw;
+        font-weight: bold;
+        margin-top: 4vw;
+        color: #555;
+        font-family: 'Lato', sans-serif;
+    }
+    .title-more-area{
+        font-size:3vw;
+        font-weight: 500;
+        margin-top: 3.5vw;
+        color: rgb(37, 37, 37);
+        font-family: 'Lato', sans-serif;
+    }
+    .in-progress{
+        font-size: 3vw;
+        font-weight: 600;
+        text-align: center;
+        position: relative;
+        top: 12vw;
+        left:2vw;
+        animation-name: progress;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+}

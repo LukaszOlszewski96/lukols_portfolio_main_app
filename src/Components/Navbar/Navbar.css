@@ -1,0 +1,192 @@
+.navbar-conteiner{
+    display: flex;
+    width: 100vw;
+    height: 4vw;
+    background-color:rgba(255,255,255,0.9);
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.icon-logo{
+    display: flex;
+    font-size: 2.5vw;
+    position: relative;
+    left: 17.5%;
+    top: 6%;
+    color: #7510F7;
+    transition: 500ms;
+    margin: 0;
+    padding: 0;
+}
+.icon-logo:hover{
+    font-size: 2.5vw;
+}
+.logo{
+    display: flex;
+    margin-left: 17% ;
+    height: 3vw;
+    align-items: center;
+    font-size: 1.6vw;
+    font-family: 'Signika', sans-serif;
+    font-weight: 400;
+    padding-top: 0.6510416666666666vw;
+    color: #7510F7;
+    transition: 500ms;
+}
+.logo:hover{
+    font-size: 1.6vw;
+}
+.menu-conteiner{
+    position: relative;
+    left: 27%;
+    height: 3.5vw;
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+.menu-links{
+    display: flex;
+    list-style-type: none;
+}
+.menu-links li{
+    display: flex;
+    width: 6.5vw;
+    height: 2.6041666666666665vw;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    padding-top: 0.6510416666666666vw;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2vw;
+    padding-bottom: 0.6510416666666666vw;
+    padding-right: 0.6510416666666666vw;
+    padding-left: 0.6510416666666666vw;
+    color: #2C2F33;
+    font-weight: bold;
+    transition: 600ms;
+}
+a:hover{
+    font-size: 1vw;
+    transition: 500ms;
+}
+@media  (max-width:800px){
+    .navbar-conteiner{
+        display: flex;
+        width: 100vw;
+        height: 100px;
+        background-color:rgba(255,255,255,0.9);
+        margin: 0;
+        padding: 0;
+        position: static;
+    }
+    .navbar-conteiner.active{
+        display: flex;
+        width: 100vw;
+        height: auto;
+        background-color:rgb(255, 255, 255);
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        border-bottom: solid 3px rgba(157, 160, 157, 0.281);
+        justify-content: center;
+
+    }
+    .icon-logo{
+        display: flex;
+        font-size: 65px;
+        position: relative;
+        left: 3%;
+        top: 30px;
+        color: #7510F7;
+    }
+    .icon-logo:hover{
+        font-size: 65px;
+    }
+    .logo{
+        display: none;
+    }
+    .hamburger-menu{
+        height: 100%;
+        width: 100%;
+        margin:10px;
+    }
+    .hamburger-icon{
+        font-size: 35px;
+        float: right;
+        position: relative;
+        right: 5%;
+        top: 28px;
+        color:#7510F7;
+        z-index: 3;
+    }
+    .hamburger-icon:hover{
+        font-size: 30px;
+    }
+    .menu-links{
+        display: none;
+    }
+    .menu-links.active{
+        display: block;
+    }
+    .menu-links.active .link.home{
+        font-size: 24px;
+        position: relative;
+        top: 100px;
+    }
+    .menu-links.active .link.home:hover{
+        font-size: 20px;
+        
+    }
+    .menu-links.active .link.about{
+        font-size: 24px;
+        position: relative;
+        top: 140px;
+       
+    }
+    .menu-links.active .link.about:hover{
+        font-size: 20px;
+       
+    }
+    .menu-links.active .link.skill{
+        font-size: 24px;
+        position: relative;
+        top: 180px;
+
+    }
+    .menu-links.active .link.skill:hover{
+        font-size: 20px;
+
+    }
+    .menu-links.active .link.portfolio{
+        font-size: 24px;
+        position: relative;
+        top: 220px;
+    }
+    .menu-links.active .link.portfolio:hover{
+        font-size: 20px;
+    }
+    .menu-links.active .link.contact{
+        font-size: 24px;
+        position: relative;
+        top: 260px;
+    }
+    .menu-links.active .link.contact:hover{
+        font-size: 20px;
+    }
+    .menu-conteiner{
+        display: none;
+    }
+    .menu-conteiner.active{
+        display: block;
+        width: 150px;
+        height: 390px;
+    }
+    .link{
+        left:2vw;
+    }
+    
+
+}

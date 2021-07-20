@@ -1,0 +1,31 @@
+.button-contact{
+    margin: 0;
+    padding: 0;
+    padding: 1vw 1.5vw;
+    color:#7510F7 ;
+    border-radius: 50px;
+    border: solid 2px  #7510F7;
+    transition: 300ms;
+}
+.button-contact:hover{
+    padding: 1vw;
+    transition: 300ms;
+}
+@media (max-width:800px){
+    .button-contact{
+        margin: 0;
+        padding: 0;
+        padding: 3.5vw 4.5vw;
+        font-size: 2.5vw;
+        color:#7510F7 ;
+        border-radius: 50px;
+        border: solid 2px  #7510F7;
+        transition: 300ms;
+    }
+    .button-contact:hover{
+        padding: 3vw 4vw 3vw 4vw;
+        transition: 300ms;
+        font-size: 2vw;
+    }
+}
+

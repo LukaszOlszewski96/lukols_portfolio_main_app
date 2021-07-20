@@ -1,0 +1,152 @@
+.home-conteiner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 55vw;
+    min-height:260px;
+    background-color: rgba(255,255,255,0.9);
+    overflow-x: hidden;
+}
+.left-box-home{
+    width: 66vw;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    top: 17vw;
+    animation: fadeIn 1s ease-in both;
+}
+p{
+    margin:0;
+    padding: 0;
+}
+.font-size-name{
+    font-size: 4.4vw;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    transition: 500ms;
+}
+.font-size-text-2{
+    font-size: 1.4vw;
+    text-align: left;
+    color: #2C2F33;
+    font-family: 'Lato', sans-serif;
+    transition: 500ms;
+}
+.font-size-text{
+    font-size: 2vw;
+    text-align: left;
+    color: #2C2F33;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: 500ms;
+}
+.icons-profiles{
+    display: flex;
+    position: relative;
+    top: 8vw;
+    left: 0px;
+}
+.icons-profiles-linkedin a{
+    font-size: 2.5vw;
+    color: #0E76A8;
+    padding: 0;
+    margin-right: 10px;
+}
+.icons-profiles-git a{
+    font-size: 2.5vw;
+    color: black;
+    padding: 0;
+    margin-right: 10px;
+}
+.icons-profiles-instagram a{
+    font-size: 2.5vw;
+    color: black;
+    padding: 0;
+    margin-right: 10px;
+}
+.right-box-home img{
+    height: 49vw;
+    min-height: 225px;
+    width: auto;
+    position: relative;
+    left: 55%;
+    top: 7vw;
+
+}
+.right-box-home{
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@media (max-width:800px){
+    .home-conteiner{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 150vw;
+        min-height:260px;
+        background-color: rgba(255,255,255,0.9);
+        overflow-x: hidden;
+    }
+    .right-box-home{
+        display: none;
+    }
+    .left-box-home{
+        width: 66vw ;
+        height: 100%;
+        position: absolute;
+        left: 20%;
+        top: 50vw;
+        animation: fadeIn 1s ease-in both;
+    }
+    .font-size-name{
+        font-size: 13.4vw;
+        font-family: 'Lato', sans-serif;
+        text-align: left;
+        transition: 500ms;
+    }
+    .font-size-text-2{
+        font-size: 5.4vw;
+        text-align: left;
+        color: #2C2F33;
+        font-family: 'Lato', sans-serif;
+        transition: 500ms;
+    }
+    .font-size-text{
+        font-size: 7.3vw;
+        text-align: left;
+        color: #2C2F33;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        transition: 500ms;
+    }
+    .icons-profiles{
+        display: flex;
+        position: relative;
+        top: 17vw;
+        left: 0px;
+    }
+    .icons-profiles-linkedin a{
+        font-size: 7.5vw;
+        color: #0E76A8;
+        padding: 0;
+    }
+    .icons-profiles-git a{
+        font-size: 7.5vw;
+        color: black;
+    }
+    .icons-profiles-instagram a{
+        font-size: 7.5vw;
+        color: black;
+    }
+    
+}

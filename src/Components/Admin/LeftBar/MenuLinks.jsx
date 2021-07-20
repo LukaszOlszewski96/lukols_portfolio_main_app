@@ -1,0 +1,27 @@
+export const MenuLinks =[
+    {
+        title:"Home",
+        url:"#",
+        class:"menu-link-admin"
+    },
+    {
+        title:"Contact",
+        url:"#",
+        class:"menu-link-admin"
+    },
+    {
+        title:"Contact",
+        url:"#",
+        class:"menu-link-admin"
+    },
+    {
+        title:"Portfolio",
+        url:"#",
+        class:"menu-link-admin"
+    },
+    {
+        title:"Skills",
+        url:"#",
+        class:"menu-link-admin"
+    }
+];

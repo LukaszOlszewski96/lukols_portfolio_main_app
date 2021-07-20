@@ -1,0 +1,158 @@
+.contact-block{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    background-color: #7510F7;
+}
+.contact-conteiner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 25vw;
+    background-color: #7510F7;
+    display: flex;
+    justify-content: center;
+}
+.contact-box{
+    display: block;
+    position: relative;
+    top: -8vw;
+    width: 53.57vw;
+    height: 20.83vw;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: #7410f760 0px 0px 10px 4px;
+}
+.contact-name{
+    padding-top:3vw ;
+    margin: 0;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    transition: 500ms;
+}
+.contact-text{
+    margin: 0;
+    font-size: 1vw;
+    text-align: center;
+    transition: 500ms;
+}
+.contact-box p:nth-child(2){
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+.contact-btn{
+    width: 100%;
+    margin-top: 3vw;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+.contact-box p {
+    font-family: 'Lato', sans-serif;
+}
+.icon-logo-fot{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#7410f760;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0.5vw;
+    right: 7.3vw;
+    font-size:2vw;
+    color: rgba(255, 255, 255, 0.822);
+}
+.certificate{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.certyficate-p{
+    position: relative;
+    bottom: 2vw;
+    font-size: 1vw;
+    color:rgba(255, 255, 255, 0.822);
+    text-align: center;
+}
+.certificate a{
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    color:rgba(255, 255, 255, 0.822);
+    font-weight: 600;
+}
+@media (max-width:800px){
+    .contact-block{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 50vw;
+        background-color: #7510F7;
+    }
+    .contact-box{
+        display: block;
+        position: relative;
+        top: -20vw;
+        width: 80vw;
+        height: 50vw;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: #7410f760 0px 0px 10px 4px;
+    }
+    .contact-name{
+        padding-top:5vw ;
+        margin: 0;
+        font-size: 5.5vw;
+        font-weight: bold;
+        text-align: center;
+        transition: 500ms;
+    }
+    .contact-text{
+        margin: 0;
+        font-size: 3vw;
+        text-align: center;
+        transition: 500ms;
+    }
+    .contact-btn{
+        width: 100%;
+        margin-top: 10vw;
+        height: auto;
+        justify-content: center;
+        display: flex;
+    }
+    .certificate p{
+        position: relative;
+        bottom: -15vw;
+        font-size: 2vw;
+        color:rgba(255, 255, 255, 0.822);
+        text-align: center;
+    }
+    .certificate a{
+        margin: 0;
+        padding: 0;
+        font-size: 2vw;
+        color:rgba(255, 255, 255, 0.822);
+        font-weight: 600;
+    }
+    .icon-logo-fot{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color:#7410f760;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: -18vw;
+        right: 15vw;
+        font-size:3vw;
+        color: rgba(255, 255, 255, 0.822);
+    }
+}

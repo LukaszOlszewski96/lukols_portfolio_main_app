@@ -1,0 +1,104 @@
+.about-conteiner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30vw;
+    background-color: #7510F7;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.left-box-about p{
+    color: rgba(255,255,255,0.9);
+    font-size: 2.5vw;
+    font-weight: 600;
+    display: flex;
+    transition: 500ms;
+}
+.left-box-about{
+    width: auto;
+    height: 12vw;
+    left: 20%;
+    top: 14vw;
+    position: relative;
+}
+
+.right-box-about{
+    width: 30vw;
+    height: auto;
+    float: right;
+    position: relative;
+    top:-5vw;
+    right: 15%;
+}
+.CV-button{
+    padding: 0.7vw 1vw 0.7vw 1vw;
+    color: rgba(255,255,255,0.9);
+    position: relative;
+    top: 2vw;
+    border-radius: 1vw;
+    font-size: 1vw;
+    background-color: #C84E89;
+    box-shadow: 4px 8px 16px rgba(0, 27, 111, 0.2);
+}
+.CV-button:hover{
+    font-size: 0.7vw;
+}
+.text-about-me{
+    text-align: left;
+    color: rgba(255,255,255,0.9);
+    font-size: 1vw;
+}
+.text-about-me.ii{
+    margin-top: 1vw;
+}
+@media (max-width:800px){
+    .about-conteiner{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 80vw;
+        background-color: #7510F7;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .left-box-about p{
+        color: rgba(255,255,255,0.9);
+        font-size: 7.5vw;
+        font-weight: 600;
+        transition: 500ms;
+    }
+    .left-box-about{
+        width: auto;
+        height: 12vw;
+        left: 30%;
+        top: 6vw;
+        position: relative;
+    }
+    
+    .right-box-about{
+        width: 80vw;
+        height: auto;
+        position: relative;
+        top:7vw;
+        right:8%;
+    }
+    .CV-button{
+        padding: 2vw 2.5vw 2vw 2.5vw;
+        color: rgba(255,255,255,0.9);
+        background-color: #C84E89;
+        position: relative;
+        top: 5vw;
+        left: 33%;
+        border-radius: 3vw;
+        font-size: 4.5vw;
+    }
+    .CV-button:hover{
+        font-size: 4vw;
+    }
+    .text-about-me{
+        text-align: left;
+        color: rgba(255,255,255,0.9);
+        font-size: 3vw;
+    }
+
+}

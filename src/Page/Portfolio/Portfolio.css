@@ -1,0 +1,258 @@
+.portfolio-conteiner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60vw;
+    background-color: rgba(255,255,255,0.9);
+    display: block;
+    border-top: 2px solid #7410f742;
+}
+.portfolio-name{
+    margin-top:7vw;
+    text-align: center;
+    color: #000;
+    font-size: 2.5vw;
+    font-weight: bold;
+    transition: 500ms;
+}
+.portfolio-text{
+    color:#000;
+    font-size: 1.2vw;
+    margin-top: 3vw;
+    text-align: center;
+    transition: 500ms;
+}
+.portfolio-box-image{
+    width: 25vw;
+    height: 20vw;
+    overflow: hidden;
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
+    position: relative;
+    background: #EEF2FA;
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(136, 165, 191, 0.658);
+    border-radius: 2vw;
+    transition: 200ms;
+    
+}
+.portfolio-box-image img{
+    width: 25vw;
+    height: 20vw;
+}
+
+
+.horizontal-box-portfolio{
+    display: flex;
+    margin-top: 5vw;
+    justify-content: center;
+}
+.box-portfolio{
+ width: auto;
+ height: auto;
+ margin-top: 30px;
+}
+.overlay-image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: 500ms;
+}
+.overlay-image p{
+    font-size: 3vw;
+    text-align: center;
+}
+.portfolio-box-image:hover .overlay-image{
+    background-color: #141c3a;
+    color: #ffff;
+    transition: 400ms;
+    z-index: 1;
+}
+.icon-logo-portfolio{
+    font-size: 6vw;
+    color: #ffff;
+    position: absolute;
+    left: 37%;
+    top: 8%;
+}
+.img-pupil-logo{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 33%;
+    top:6%;
+}
+.img-pupil-logo img{
+    width: 7vw;
+    height: 7vw;
+}
+.img-fox-logo{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 37%;
+    top:8%;
+}
+.img-fox-logo img{
+    width: 6vw;
+    height: 6vw;
+}
+.pupil-title{
+    position: relative;
+    right: 1%;
+    
+}
+.fox-title{
+    position: relative;
+    right: 1%;
+    top: 8%;
+    
+}
+.more-info-button{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top:70%;
+    left: 32%;
+}
+.lukols-title{
+    position: relative;
+    right: 1%;
+    top: 40%;
+}
+.button-portfolio{
+    margin: 0;
+    padding: 1vw 1.5vw;
+    font-size: 1.3vw;
+    color:#7510F7 ;
+    border-radius: 50px;
+    border: solid 2px  #7510F7;
+    transition: 500ms;
+    transition-delay:0.2s;
+}
+.button-portfolio:hover{
+    background-color:#7510F7 ;
+    transition: 300ms;
+    color: #ffff;
+    font-size: 1.3vw;
+}
+@media (max-width:800px){
+    .horizontal-box-portfolio{
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio-box-image{
+        width: 70vw;
+        height: 55vw;
+        margin-top: 2.5vw;
+        margin-bottom: 2.5vw;
+    }
+    .portfolio-name{
+        margin-top:7vw;
+        text-align: center;
+        color: #000;
+        font-size: 7.5vw;
+        font-weight: 600;
+        transition: 500ms;
+    }
+    .portfolio-text{
+        color:#000;
+        font-size: 4vw;
+        margin-top: 3vw;
+        text-align: center;
+        transition: 500ms;
+    }
+    .portfolio-conteiner{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50vw;
+        background-color: rgba(255,255,255,0.9);
+        display: block;
+        border-top: 2px solid #7410f742;
+    }
+    .more-info-button{
+        width: auto;
+        height: auto;
+        position: absolute;
+        top:70%;
+        left: 35%;
+    }
+    .icon-logo-portfolio{
+        font-size: 15vw;
+        color: #ffff;
+        position: absolute;
+        left: 40%;
+        top: 8%;
+    }
+    .overlay-image p{
+        font-size: 6vw;
+        text-align: center;
+    }
+    .portfolio-box-image img{
+        width: 70vw;
+        height: 55vw;
+    }
+    .img-fox-logo{
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 38%;
+        top:10%;
+    }
+    .img-fox-logo img{
+        width: 15vw;
+        height: 15vw;
+    }
+    .img-pupil-logo img{
+        width: 20vw;
+        height: 20vw;
+    }
+    .fox-title{
+        position: absolute;
+        left: 3%;
+        top: 42%;
+
+    }
+    .lukols-title{
+        position: absolute;
+        left: 3%;
+        top: 42%;
+
+    }
+    .pupil-title{
+        position: absolute;
+        left: 3%;
+        top:42%;
+        
+    }
+    .button-portfolio{
+        margin: 0;
+        padding: 0;
+        padding: 4vw 4.5vw 4vw 4.5vw;
+        color:#7510F7 ;
+        font-size: 3vw;
+        border-radius: 50px;
+        border: solid 2px  #7510F7;
+        transition: 500ms;
+        transition-delay:0.2s;
+    }
+    .button-portfolio:hover{
+        background-color:#7510F7 ;
+        transition: 300ms;
+        color: #ffff;
+        font-size:3vw;
+        
+    }
+}
