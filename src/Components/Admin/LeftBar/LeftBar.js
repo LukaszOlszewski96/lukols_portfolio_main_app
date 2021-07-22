@@ -2,6 +2,7 @@ import React from 'react';
 import './LeftBar.css';
 import { MenuLinks } from './MenuLinks';
 import { AiOutlineAliwangwang } from 'react-icons/ai'
+import { RiLogoutBoxLine} from 'react-icons/ri';
 
 function LeftBar() {
     return (
@@ -10,12 +11,14 @@ function LeftBar() {
             <ul className="menu-box-admin">
                 {MenuLinks.map((item,index)=>{
                     return(
-                        <il key={index}>
-                            <a className={item.class} href={item.url}>{item.title}</a>
+                        <il className="list-link-admin" key={index}>
+                            <a className={item.class} href={item.url}><div className="icon-menu-item">{item.icon}</div>{item.title}</a>                    
                         </il>
                     )
                 })}
             </ul>
+            <a className="logOut-admin" href="#"><div className="icon-menu-item"><RiLogoutBoxLine/></div>Log Out</a>                    
+
         </div>
     )
 }
