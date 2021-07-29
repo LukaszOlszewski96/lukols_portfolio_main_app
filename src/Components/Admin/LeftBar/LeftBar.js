@@ -17,8 +17,7 @@ function LeftBar() {
                     )
                 })}
             </ul>
-            <a className="logOut-admin" href="#"><div className="icon-menu-item"><RiLogoutBoxLine/></div>Log Out</a>                    
-
+            <a className="logOut-admin" href="#"><div className="icon-menu-item"><RiLogoutBoxLine/></div>Log Out</a>
         </div>
     )
 }

@@ -7,9 +7,11 @@
     display: block;
     overflow: hidden;
     transition: 500ms;
+    position: relative;
+    z-index: 10;
 }
 .leftBar-conteiner:hover{
-    width: 10vw;
+    width: 11vw;
     transition: 500ms;
 }
  .menu-box-admin{
