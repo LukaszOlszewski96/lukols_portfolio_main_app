@@ -41,15 +41,17 @@
     margin-right: 2vw;
     color: #7510F7;
 }
+
+.statBoxBtn-number-title{
+    display: block;
+    margin: auto;
+}
+
 .title-statBoxBtn{
-    position: relative;
-    bottom: 1.7vw;
-    left: 2vw;
     font-size: .8vw;
 }
+
 .number-statBoxBtn{
-    position: relative;
     font-size: 1.5vw;
-    top: .5vw;
-    right: 1vw;
+    text-align: center;
 }

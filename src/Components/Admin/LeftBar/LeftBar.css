@@ -36,7 +36,7 @@
      display: flex;
      align-items: center;
  }
- .menu-link-admin{
+ .menu-link-admin, Link{
     padding: 1vw 0vw 1vw 1vw;
     margin: 0;
     display: flex;
@@ -47,14 +47,13 @@
  }
  .logOut-admin{
     position: relative;
-    width: 100px;
+    width: 100vw;
     top: 20vw;
     padding: 1vw 0vw 1vw 1vw;
     margin: 0;
     display: flex;
     font-size: 1vw;
     color: #ffff;
-    width: 100px;
     align-items: center;
 }
 .logOut-admin:hover{

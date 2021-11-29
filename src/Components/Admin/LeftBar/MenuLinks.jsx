@@ -8,25 +8,25 @@ import {DiProlog} from 'react-icons/di';
 export const MenuLinks =[
     {
         title:"Dashboard",
-        url:"#",
+        url:"/admin",
         class:"menu-link-admin",
         icon: <RiDashboardFill/>
     },
     {
         title:"Contact",
-        url:"#",
+        url:"/admin/contact",
         class:"menu-link-admin",
         icon: <MdEmail/>
     },
     {
         title:"Cooperation",
-        url:"#",
+        url:"/admin/cooperation",
         class:"menu-link-admin",
         icon: <RiMoneyDollarCircleFill/>
     },
     {
         title:"Portfolio",
-        url:"#",
+        url:"/admin/portfolio",
         class:"menu-link-admin",
         icon: <AiOutlineFundProjectionScreen/>
     },
