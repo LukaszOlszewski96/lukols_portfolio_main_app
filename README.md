@@ -35,7 +35,7 @@ To use the application clone it by typing the command at the command line:
 
 Run the following command in order to start the application in a development environment:
 
-```npm install```
+```npm start```
 
 
 
