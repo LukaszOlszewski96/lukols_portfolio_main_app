@@ -4,4 +4,22 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+.conteiner-formulage-card{
+    display: flex;
+}
+.portfolio-card-conteiner{
+    width: 70%;
+    height: 100%;
+    margin-left: 3vw;
+}
+
+.formulage-conteiner{
+    background-color: brown;
+    width: 30%;
+    height: 100%;
+    display: block;
+    height: 20vw;
 }

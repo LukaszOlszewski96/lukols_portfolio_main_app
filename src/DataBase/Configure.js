@@ -13,8 +13,8 @@ const firebaseConfig = {
 
   var firebaseApp = firebase.initializeApp(firebaseConfig);
   var cloudFirestore = firebaseApp.firestore();
-
-  export {cloudFirestore};
+  var storage = firebaseApp.storage();
+  export {cloudFirestore, storage};
   export const  auth = firebase.auth;
   export const provider = new firebase.auth.FacebookAuthProvider();
 
